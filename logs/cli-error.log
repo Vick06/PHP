@@ -1,0 +1,40 @@
+2018-10-04 15:43:07 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'admissionhopital.intems_files' doesn't exist in C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'intems_files', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('intems_files', Array)
+#2 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('intems_files')
+#3 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'intems_files', 'IntemsFiles')
+#7 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('IntemsFiles')
+#8 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Bake\Shell\Task\ModelTask->main('IntemsFiles')
+#9 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('intems_files', 0)
+#10 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\BakeShell.php(274): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('intems_files')
+#12 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\Program Files (x86)\Ampps\www\AdmissionHopital\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-10-04 15:43:53 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'admissionhopital.intems_filescake' doesn't exist in C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'intems_filescak...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('intems_filescak...', Array)
+#2 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('intems_filescak...')
+#3 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'intems_filescak...', 'IntemsFilescake')
+#7 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('IntemsFilescake')
+#8 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Bake\Shell\Task\ModelTask->main('IntemsFilescake')
+#9 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('intems_filescak...', 0)
+#10 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\bake\src\Shell\BakeShell.php(274): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('intems_filescak...', 'bake')
+#12 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\Program Files (x86)\Ampps\www\AdmissionHopital\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\Program Files (x86)\Ampps\www\AdmissionHopital\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+

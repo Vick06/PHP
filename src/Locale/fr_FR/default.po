@@ -1,0 +1,862 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-10-10 21:07+0000\n"
+"PO-Revision-Date: 2018-10-10 17:53-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: fr\n"
+
+#: Controller/CommentsController.php:58;83
+msgid "The comment has been saved."
+msgstr "Ce commentaire a été sauvegarder."
+
+#: Controller/CommentsController.php:62;87
+msgid "The comment could not be saved. Please, try again."
+msgstr "Ce commentaire n'a pas pu être sauvegarder. SVP réessayer."
+
+#: Controller/CommentsController.php:105
+msgid "The comment has been deleted."
+msgstr "Ce commentaire a été supprimer."
+
+#: Controller/CommentsController.php:107
+msgid "The comment could not be deleted. Please, try again."
+msgstr "Ce commentaire n'a pas pu être sauvegarder. SVP réessayer."
+
+#: Controller/FilesController.php:55;80
+msgid "The file has been saved."
+msgstr "Le fichier a été sauvegarder."
+
+#: Controller/FilesController.php:59;84
+msgid "The file could not be saved. Please, try again."
+msgstr "Le fichier n'a pas pu être sauvegarder. SVP réessayer."
+
+#: Controller/FilesController.php:102
+msgid "The file has been deleted."
+msgstr "Le fichier a été supprimer."
+
+#: Controller/FilesController.php:104
+msgid "The file could not be deleted. Please, try again."
+msgstr "Le fichier n'a pas pu être supprimer. SVP réessayer."
+
+#: Controller/ItemsController.php:84
+msgid "Your item has been saved."
+msgstr "Votre objet a été sauvegarder."
+
+#: Controller/ItemsController.php:87
+msgid "Unable to add your item."
+msgstr "Impossible de rajouter votre objet."
+
+#: Controller/ItemsController.php:107
+msgid "The item has been saved."
+msgstr "Votre objet a été sauvegarder."
+
+#: Controller/ItemsController.php:111
+msgid "The ietm could not be saved. Please, try again."
+msgstr "Votre objet n'a pas pu être sauvegarder. SVP réessayer."
+
+#: Controller/ItemsController.php:143
+msgid "The item has been deleted."
+msgstr "Votre objet a été supprimer."
+
+#: Controller/ItemsController.php:145
+msgid "The item could not be deleted. Please, try again."
+msgstr "L'objet n'a pas pu être supprimer. SVP réessayer."
+
+#: Controller/ItemsFilesController.php:58;84
+msgid "The items file has been saved."
+msgstr "L'objet fichier a été sauvegarder."
+
+#: Controller/ItemsFilesController.php:62;88
+msgid "The items file could not be saved. Please, try again."
+msgstr "L'objet fichier n'a pas pu être sauvegarder. SVP réessayer."
+
+#: Controller/ItemsFilesController.php:107
+msgid "The items file has been deleted."
+msgstr "L'objet fichier a été supprimer."
+
+#: Controller/ItemsFilesController.php:109
+msgid "The items file could not be deleted. Please, try again."
+msgstr "L'objet fichier n'a pas pu être supprimé. SVP réessayer."
+
+#: Controller/ItemsTagsController.php:58;84
+msgid "The items tag has been saved."
+msgstr "Le tag de l'objet a été sauvegarder."
+
+#: Controller/ItemsTagsController.php:62;88
+msgid "The items tag could not be saved. Please, try again."
+msgstr "Le tag de l'objet n'a  pas pu être sauvegarder. SVP réessayer."
+
+#: Controller/ItemsTagsController.php:107
+msgid "The items tag has been deleted."
+msgstr "Le tag de l'objet a été supprimer."
+
+#: Controller/ItemsTagsController.php:109
+msgid "The items tag could not be deleted. Please, try again."
+msgstr "Le tag de l'objet n'a pas pu être supprimé. SVP réessayer."
+
+#: Controller/TagsController.php:55;80
+msgid "The tag has been saved."
+msgstr "Le tag a été sauvegarder."
+
+#: Controller/TagsController.php:59;84
+msgid "The tag could not be saved. Please, try again."
+msgstr "Le tag n'a pas pu être sauvegarder. SVP réessayer."
+
+#: Controller/TagsController.php:102
+msgid "The tag has been deleted."
+msgstr "Le tag a été supprimer"
+
+#: Controller/TagsController.php:104
+msgid "The tag could not be deleted. Please, try again."
+msgstr "Le tag n'a pas pu être supprimer. SVP réessayer."
+
+#: Controller/UsersController.php:90;114
+msgid "The user has been saved."
+msgstr "L'utilisateur a été sauvegarder."
+
+#: Controller/UsersController.php:94;118
+msgid "The user could not be saved. Please, try again."
+msgstr "L'utilisateur n'a pas pu être sauvegarder. SVP réessayer."
+
+#: Controller/UsersController.php:135
+msgid "The user has been deleted."
+msgstr "L'utilisateur a été supprimer."
+
+#: Controller/UsersController.php:137
+msgid "The user could not be deleted. Please, try again."
+msgstr "L'utilisateur n'a pas pu être supprimer."
+
+#: Template/Comments/add.ctp:9 Template/Comments/edit.ctp:9
+#: Template/Comments/index.ctp:9;25 Template/Comments/view.ctp:9
+#: Template/Files/add.ctp:9 Template/Files/edit.ctp:9
+#: Template/Files/index.ctp:9;26 Template/Files/view.ctp:9;58
+#: Template/Items/add.ctp:9 Template/Items/edit.ctp:9
+#: Template/Items/index.ctp:9;32 Template/Items/view.ctp:9;67;96;125
+#: Template/ItemsFiles/add.ctp:9 Template/ItemsFiles/edit.ctp:9
+#: Template/ItemsFiles/index.ctp:9;25 Template/ItemsFiles/view.ctp:9
+#: Template/ItemsTags/add.ctp:9 Template/ItemsTags/edit.ctp:9
+#: Template/ItemsTags/index.ctp:9;24 Template/ItemsTags/view.ctp:9
+#: Template/Tags/add.ctp:9 Template/Tags/edit.ctp:9
+#: Template/Tags/index.ctp:9;24 Template/Tags/view.ctp:9;50
+#: Template/Users/add.ctp:9 Template/Users/edit.ctp:9
+#: Template/Users/index.ctp:9;27 Template/Users/view.ctp:9;62
+msgid "Actions"
+msgstr "Actions"
+
+#: Template/Comments/add.ctp:10 Template/Comments/edit.ctp:16
+#: Template/Comments/view.ctp:12 Template/Items/add.ctp:13
+#: Template/Items/edit.ctp:19 Template/Items/index.ctp:13
+#: Template/Items/view.ctp:16
+msgid "List Comments"
+msgstr "Listes de commentaires"
+
+#: Template/Comments/add.ctp:11 Template/Comments/edit.ctp:17
+#: Template/Comments/index.ctp:11 Template/Comments/view.ctp:14
+#: Template/Files/add.ctp:11 Template/Files/edit.ctp:17
+#: Template/Files/index.ctp:11 Template/Files/view.ctp:14
+#: Template/Items/add.ctp:10 Template/Items/edit.ctp:16
+#: Template/Items/view.ctp:12 Template/ItemsFiles/add.ctp:11
+#: Template/ItemsFiles/edit.ctp:17 Template/ItemsFiles/index.ctp:11
+#: Template/ItemsFiles/view.ctp:14 Template/ItemsTags/add.ctp:11
+#: Template/ItemsTags/edit.ctp:17 Template/ItemsTags/index.ctp:11
+#: Template/ItemsTags/view.ctp:14 Template/Tags/add.ctp:11
+#: Template/Tags/edit.ctp:17 Template/Tags/index.ctp:11
+#: Template/Tags/view.ctp:14 Template/Users/add.ctp:11
+#: Template/Users/edit.ctp:17 Template/Users/index.ctp:11
+#: Template/Users/view.ctp:14
+msgid "List Items"
+msgstr "Liste d'objets"
+
+#: Template/Comments/add.ctp:12 Template/Comments/edit.ctp:18
+#: Template/Comments/index.ctp:12 Template/Comments/view.ctp:15
+#: Template/Files/add.ctp:12 Template/Files/edit.ctp:18
+#: Template/Files/index.ctp:12 Template/Files/view.ctp:15
+#: Template/Items/index.ctp:10 Template/Items/view.ctp:13
+#: Template/ItemsFiles/add.ctp:12 Template/ItemsFiles/edit.ctp:18
+#: Template/ItemsFiles/index.ctp:12 Template/ItemsFiles/view.ctp:15
+#: Template/ItemsTags/add.ctp:12 Template/ItemsTags/edit.ctp:18
+#: Template/ItemsTags/index.ctp:12 Template/ItemsTags/view.ctp:15
+#: Template/Tags/add.ctp:12 Template/Tags/edit.ctp:18
+#: Template/Tags/index.ctp:12 Template/Tags/view.ctp:15
+#: Template/Users/add.ctp:12 Template/Users/edit.ctp:18
+#: Template/Users/index.ctp:12 Template/Users/view.ctp:15
+msgid "New Item"
+msgstr "Nouvel objet"
+
+#: Template/Comments/add.ctp:18
+msgid "Add Comment"
+msgstr "Ajouter un commentaire"
+
+#: Template/Comments/add.ctp:25 Template/Comments/edit.ctp:31
+#: Template/Files/add.ctp:26 Template/Files/edit.ctp:32
+#: Template/Items/add.ctp:34 Template/Items/edit.ctp:40
+#: Template/ItemsFiles/add.ctp:26 Template/ItemsFiles/edit.ctp:32
+#: Template/ItemsTags/add.ctp:24 Template/ItemsTags/edit.ctp:30
+#: Template/Tags/add.ctp:24 Template/Tags/edit.ctp:30 Template/Users/add.ctp:26
+#: Template/Users/edit.ctp:32 View/Helper/FormHelper.php:1986
+msgid "Submit"
+msgstr "Envoyer"
+
+#: Template/Comments/edit.ctp:11 Template/Comments/index.ctp:39
+#: Template/Files/edit.ctp:11 Template/Files/index.ctp:41
+#: Template/Files/view.ctp:72 Template/Items/edit.ctp:11
+#: Template/Items/index.ctp:47 Template/Items/view.ctp:80;107;138
+#: Template/ItemsFiles/edit.ctp:11 Template/ItemsFiles/index.ctp:37
+#: Template/ItemsTags/edit.ctp:11 Template/ItemsTags/index.ctp:35
+#: Template/Tags/edit.ctp:11 Template/Tags/index.ctp:37
+#: Template/Tags/view.ctp:64 Template/Users/edit.ctp:11
+#: Template/Users/index.ctp:43 Template/Users/view.ctp:76
+msgid "Delete"
+msgstr "Supprimer"
+
+#: Template/Comments/edit.ctp:13 Template/Comments/index.ctp:39
+#: Template/Comments/view.ctp:11 Template/Files/edit.ctp:13
+#: Template/Files/index.ctp:41 Template/Files/view.ctp:11;72
+#: Template/Items/edit.ctp:13 Template/Items/index.ctp:47
+#: Template/Items/view.ctp:11;80;107;138 Template/ItemsFiles/edit.ctp:13
+#: Template/ItemsFiles/index.ctp:37 Template/ItemsFiles/view.ctp:11
+#: Template/ItemsTags/edit.ctp:13 Template/ItemsTags/index.ctp:35
+#: Template/ItemsTags/view.ctp:11 Template/Tags/edit.ctp:13
+#: Template/Tags/index.ctp:37 Template/Tags/view.ctp:11;64
+#: Template/Users/edit.ctp:13 Template/Users/index.ctp:43
+#: Template/Users/view.ctp:11;76
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Êtes-vous sûr que vous voulez supprimer ?"
+
+#: Template/Comments/edit.ctp:24 Template/Comments/view.ctp:10
+msgid "Edit Comment"
+msgstr "Modifier un commentaire"
+
+#: Template/Comments/index.ctp:10 Template/Comments/view.ctp:13
+#: Template/Items/add.ctp:14 Template/Items/edit.ctp:20
+#: Template/Items/index.ctp:14 Template/Items/view.ctp:17
+msgid "New Comment"
+msgstr "Nouveau commentaire"
+
+#: Template/Comments/index.ctp:16
+msgid "Comments"
+msgstr "Commentaires"
+
+#: Template/Comments/index.ctp:37 Template/Files/index.ctp:39
+#: Template/Files/view.ctp:70 Template/Items/index.ctp:45
+#: Template/Items/view.ctp:78;105;136 Template/ItemsFiles/index.ctp:35
+#: Template/ItemsTags/index.ctp:33 Template/Tags/index.ctp:35
+#: Template/Tags/view.ctp:62 Template/Users/index.ctp:41
+#: Template/Users/view.ctp:74 View/Helper/PaginatorHelper.php:1212
+msgid "View"
+msgstr "Vue"
+
+#: Template/Comments/index.ctp:38 Template/Files/index.ctp:40
+#: Template/Files/view.ctp:71 Template/Items/index.ctp:46
+#: Template/Items/view.ctp:79;106;137 Template/ItemsFiles/index.ctp:36
+#: Template/ItemsTags/index.ctp:34 Template/Tags/index.ctp:36
+#: Template/Tags/view.ctp:63 Template/Users/index.ctp:42
+#: Template/Users/view.ctp:75
+msgid "Edit"
+msgstr "Modifier"
+
+#: Template/Comments/index.ctp:47 Template/Files/index.ctp:49
+#: Template/Items/index.ctp:55 Template/ItemsFiles/index.ctp:45
+#: Template/ItemsTags/index.ctp:43 Template/Tags/index.ctp:45
+#: Template/Users/index.ctp:51
+msgid "first"
+msgstr "Premier"
+
+#: Template/Comments/index.ctp:48 Template/Files/index.ctp:50
+#: Template/Items/index.ctp:56 Template/ItemsFiles/index.ctp:46
+#: Template/ItemsTags/index.ctp:44 Template/Tags/index.ctp:46
+#: Template/Users/index.ctp:52
+msgid "previous"
+msgstr "Précédent"
+
+#: Template/Comments/index.ctp:50 Template/Files/index.ctp:52
+#: Template/Items/index.ctp:58 Template/ItemsFiles/index.ctp:48
+#: Template/ItemsTags/index.ctp:46 Template/Tags/index.ctp:48
+#: Template/Users/index.ctp:54
+msgid "next"
+msgstr "Suivant"
+
+#: Template/Comments/index.ctp:51 Template/Files/index.ctp:53
+#: Template/Items/index.ctp:59 Template/ItemsFiles/index.ctp:49
+#: Template/ItemsTags/index.ctp:47 Template/Tags/index.ctp:49
+#: Template/Users/index.ctp:55
+msgid "last"
+msgstr "Dernier"
+
+#: Template/Comments/index.ctp:53 Template/Files/index.ctp:55
+#: Template/Items/index.ctp:61 Template/ItemsFiles/index.ctp:51
+#: Template/ItemsTags/index.ctp:49 Template/Tags/index.ctp:51
+#: Template/Users/index.ctp:57
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr "Page de montrer enregistrer du nombre total"
+
+#: Template/Comments/view.ctp:11
+msgid "Delete Comment"
+msgstr "Supprimer commentaire"
+
+#: Template/Comments/view.ctp:22 Template/ItemsFiles/view.ctp:24
+#: Template/ItemsTags/view.ctp:24
+msgid "Item"
+msgstr "Objet"
+
+#: Template/Comments/view.ctp:26 Template/Items/view.ctp:93;121
+#: Template/Tags/view.ctp:22
+msgid "Title"
+msgstr "Titre"
+
+#: Template/Comments/view.ctp:30 Template/Files/view.ctp:30;51
+#: Template/Items/view.ctp:40;61;92;119 Template/ItemsFiles/view.ctp:32
+#: Template/Tags/view.ctp:26;43 Template/Users/view.ctp:38;55
+msgid "Id"
+msgstr "Id"
+
+#: Template/Comments/view.ctp:34 Template/Files/view.ctp:38;56
+#: Template/Items/view.ctp:44;64;94;123 Template/Tags/view.ctp:30;48
+#: Template/Users/view.ctp:42;60
+msgid "Created"
+msgstr "Crée le"
+
+#: Template/Comments/view.ctp:38 Template/Files/view.ctp:42;57
+#: Template/Items/view.ctp:48;65;95;124 Template/Tags/view.ctp:34;49
+#: Template/Users/view.ctp:46;61
+msgid "Modified"
+msgstr "Modifier le"
+
+#: Template/Comments/view.ctp:43 Template/Items/view.ctp:122
+msgid "Comment"
+msgstr "Commentaire"
+
+#: Template/Files/add.ctp:10 Template/Files/edit.ctp:16
+#: Template/Files/view.ctp:12 Template/Items/add.ctp:15
+#: Template/Items/edit.ctp:21 Template/Items/index.ctp:15
+#: Template/Items/view.ctp:18 Template/ItemsFiles/add.ctp:13
+#: Template/ItemsFiles/edit.ctp:19 Template/ItemsFiles/index.ctp:13
+#: Template/ItemsFiles/view.ctp:16
+msgid "List Files"
+msgstr "Liste de fichiers"
+
+#: Template/Files/add.ctp:18
+msgid "Add File"
+msgstr "Ajouter un fichier"
+
+#: Template/Files/edit.ctp:24 Template/Files/view.ctp:10
+msgid "Edit File"
+msgstr "Modifier fichiers"
+
+#: Template/Files/index.ctp:10 Template/Files/view.ctp:13
+#: Template/Items/add.ctp:16 Template/Items/edit.ctp:22
+#: Template/Items/index.ctp:16 Template/Items/view.ctp:19
+#: Template/ItemsFiles/add.ctp:14 Template/ItemsFiles/edit.ctp:20
+#: Template/ItemsFiles/index.ctp:14 Template/ItemsFiles/view.ctp:17
+msgid "New File"
+msgstr "Nouveau fichier"
+
+#: Template/Files/index.ctp:16
+msgid "Files"
+msgstr "Fichiers"
+
+#: Template/Files/view.ctp:11
+msgid "Delete File"
+msgstr "Supprimer fichier"
+
+#: Template/Files/view.ctp:22;53 Template/Items/view.ctp:32;62
+#: Template/Tags/view.ctp:45 Template/Users/view.ctp:57
+msgid "Name"
+msgstr "Nom"
+
+#: Template/Files/view.ctp:26 Template/Items/view.ctp:63
+msgid "Path"
+msgstr "Chemin"
+
+#: Template/Files/view.ctp:34 Template/Items/view.ctp:66
+msgid "Status"
+msgstr "Status"
+
+#: Template/Files/view.ctp:47 Template/Tags/view.ctp:39
+#: Template/Users/view.ctp:51
+msgid "Related Items"
+msgstr "Items reliés"
+
+#: Template/Files/view.ctp:52 Template/Tags/view.ctp:44
+#: Template/Users/view.ctp:56
+msgid "User Id"
+msgstr "id utilisateur"
+
+#: Template/Files/view.ctp:54 Template/Items/view.ctp:36
+#: Template/Tags/view.ctp:46 Template/Users/view.ctp:58
+msgid "Slug"
+msgstr "Slug"
+
+#: Template/Files/view.ctp:55 Template/Items/view.ctp:53
+#: Template/Tags/view.ctp:47 Template/Users/view.ctp:59
+msgid "Description"
+msgstr "Description"
+
+#: Template/Items/add.ctp:11 Template/Items/edit.ctp:17
+#: Template/Items/index.ctp:11 Template/Items/view.ctp:14
+#: Template/Users/add.ctp:10 Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:12
+msgid "List Users"
+msgstr "Liste d'utilisateurs"
+
+#: Template/Items/add.ctp:12 Template/Items/edit.ctp:18
+#: Template/Items/index.ctp:12 Template/Items/view.ctp:15
+#: Template/Users/index.ctp:10 Template/Users/view.ctp:13
+msgid "New User"
+msgstr "Nouvel utilisateur"
+
+#: Template/Items/add.ctp:17 Template/Items/edit.ctp:23
+#: Template/Items/index.ctp:17 Template/Items/view.ctp:20
+#: Template/ItemsTags/add.ctp:13 Template/ItemsTags/edit.ctp:19
+#: Template/ItemsTags/index.ctp:13 Template/ItemsTags/view.ctp:16
+#: Template/Tags/add.ctp:10 Template/Tags/edit.ctp:16 Template/Tags/view.ctp:12
+msgid "List Tags"
+msgstr "Liste des tags"
+
+#: Template/Items/add.ctp:18 Template/Items/edit.ctp:24
+#: Template/Items/index.ctp:18 Template/Items/view.ctp:21
+#: Template/ItemsTags/add.ctp:14 Template/ItemsTags/edit.ctp:20
+#: Template/ItemsTags/index.ctp:14 Template/ItemsTags/view.ctp:17
+#: Template/Tags/index.ctp:10 Template/Tags/view.ctp:13
+msgid "New Tag"
+msgstr "Nouveau tag"
+
+#: Template/Items/add.ctp:24
+msgid "Add Item"
+msgstr "Ajouter un objet"
+
+#: Template/Items/edit.ctp:30 Template/Items/view.ctp:10
+msgid "Edit Item"
+msgstr "Modifier objet"
+
+#: Template/Items/index.ctp:22
+msgid "Items"
+msgstr "Objet"
+
+#: Template/Items/view.ctp:11
+msgid "Delete Item"
+msgstr "Supprimer objet"
+
+#: Template/Items/view.ctp:28
+msgid "User"
+msgstr "Utilisateur"
+
+#: Template/Items/view.ctp:57
+msgid "Related Files"
+msgstr "Fichier relier"
+
+#: Template/Items/view.ctp:88
+msgid "Related Tags"
+msgstr "Fichier tag"
+
+#: Template/Items/view.ctp:115
+msgid "Related Comments"
+msgstr "Commentaires relié"
+
+#: Template/Items/view.ctp:120
+msgid "Item Id"
+msgstr "Objet Id"
+
+#: Template/ItemsFiles/add.ctp:10 Template/ItemsFiles/edit.ctp:16
+#: Template/ItemsFiles/view.ctp:12
+msgid "List Items Files"
+msgstr "Listes d'objets de fichier"
+
+#: Template/ItemsFiles/add.ctp:20
+msgid "Add Items File"
+msgstr "Ajouter un objet fichier"
+
+#: Template/ItemsFiles/edit.ctp:26 Template/ItemsFiles/view.ctp:10
+msgid "Edit Items File"
+msgstr "Modifier un objet fichier"
+
+#: Template/ItemsFiles/index.ctp:10 Template/ItemsFiles/view.ctp:13
+msgid "New Items File"
+msgstr "Nouvel objet fichier"
+
+#: Template/ItemsFiles/index.ctp:18
+msgid "Items Files"
+msgstr "Objets fichiers"
+
+#: Template/ItemsFiles/view.ctp:11
+msgid "Delete Items File"
+msgstr "Supprimer objet fichier"
+
+#: Template/ItemsFiles/view.ctp:28
+msgid "File"
+msgstr "Fichier"
+
+#: Template/ItemsTags/add.ctp:10 Template/ItemsTags/edit.ctp:16
+#: Template/ItemsTags/view.ctp:12
+msgid "List Items Tags"
+msgstr "Liste des objets tags"
+
+#: Template/ItemsTags/add.ctp:20
+msgid "Add Items Tag"
+msgstr "Ajouter un objet tags"
+
+#: Template/ItemsTags/edit.ctp:26 Template/ItemsTags/view.ctp:10
+msgid "Edit Items Tag"
+msgstr "Modifier un objet tag"
+
+#: Template/ItemsTags/index.ctp:10 Template/ItemsTags/view.ctp:13
+msgid "New Items Tag"
+msgstr "Nouvel objet tag"
+
+#: Template/ItemsTags/index.ctp:18
+msgid "Items Tags"
+msgstr "Objets tag"
+
+#: Template/ItemsTags/view.ctp:11
+msgid "Delete Items Tag"
+msgstr "Supprimer objet tags"
+
+#: Template/ItemsTags/view.ctp:28
+msgid "Tag"
+msgstr "Tag"
+
+#: Template/Layout/error.ctp:35 Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr "Erreur"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Retour"
+
+#: Template/Tags/add.ctp:18
+msgid "Add Tag"
+msgstr "Ajouter tag"
+
+#: Template/Tags/edit.ctp:24 Template/Tags/view.ctp:10
+msgid "Edit Tag"
+msgstr "Modifier tag"
+
+#: Template/Tags/index.ctp:16
+msgid "Tags"
+msgstr "Tags"
+
+#: Template/Tags/view.ctp:11
+msgid "Delete Tag"
+msgstr "Supprimer tag"
+
+#: Template/Users/add.ctp:18
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+#: Template/Users/edit.ctp:24 Template/Users/view.ctp:10
+msgid "Edit User"
+msgstr "Modifier un utilisateur"
+
+#: Template/Users/index.ctp:16
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: Template/Users/view.ctp:11
+msgid "Delete User"
+msgstr "Supprimer un utilisateurs"
+
+#: Template/Users/view.ctp:22
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: Template/Users/view.ctp:26
+msgid "Email"
+msgstr "Courriel"
+
+#: Template/Users/view.ctp:30
+msgid "Password"
+msgstr "Mot de passe"
+
+#: Template/Users/view.ctp:34
+msgid "Role"
+msgstr "Rôle"
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr "L'adresse demandé n'a pas été retrouvé sur ce serveur."
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr "Une erreur interne s'est produite"
+
+#: Controller/Component/AuthComponent.php:500
+msgid "You are not authorized to access that location."
+msgstr "Vous n'êtes pas autorisé d'accéder a cette endroit"
+
+#: Controller/Component/CsrfComponent.php:162
+#: Http/Middleware/CsrfProtectionMiddleware.php:191
+msgid "Missing CSRF token cookie"
+msgstr "CSRF token cookie manquanf"
+
+#: Controller/Component/CsrfComponent.php:166
+#: Http/Middleware/CsrfProtectionMiddleware.php:195
+msgid "CSRF token mismatch."
+msgstr "CSRF token décalage"
+
+#: Error/ExceptionRenderer.php:262
+msgid "Not Found"
+msgstr "Pas trouvé"
+
+#: Error/ExceptionRenderer.php:264
+msgid "An Internal Error Has Occurred."
+msgstr "Une erreur interne s'est produite"
+
+#: Http/Response.php:2603
+msgid "The requested file contains `..` and will not be read."
+msgstr "Le fichier demandé contient des '..' et ne sera pas lu"
+
+#: Http/Response.php:2624
+msgid "The requested file was not found"
+msgstr "Le fichier demandé n'a pas été trouvé"
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr "KB"
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr "MB"
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr "GB"
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr "TB"
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] "Byte"
+msgstr[1] "Bytes"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr "A partir de maintenant"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr "depuis"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr "après"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr "avant"
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr "maintenant"
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr "il y a une seconde"
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr "il y a une minute"
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr "il y a une heure"
+
+#: I18n/RelativeTimeFormatter.php:154;332
+msgid "about a day ago"
+msgstr "il y a une journée"
+
+#: I18n/RelativeTimeFormatter.php:155;333
+msgid "about a week ago"
+msgstr "il y a une semaine"
+
+#: I18n/RelativeTimeFormatter.php:156;334
+msgid "about a month ago"
+msgstr "il y a un mois"
+
+#: I18n/RelativeTimeFormatter.php:157;335
+msgid "about a year ago"
+msgstr "il y a un an "
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr "dans une seconde "
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr "dans une minute"
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr "dans une heure"
+
+#: I18n/RelativeTimeFormatter.php:171;346
+msgid "in about a day"
+msgstr "dans environ une journée"
+
+#: I18n/RelativeTimeFormatter.php:172;347
+msgid "in about a week"
+msgstr "dans  environ une semaine"
+
+#: I18n/RelativeTimeFormatter.php:173;348
+msgid "in about a month"
+msgstr "dans environ une mois"
+
+#: I18n/RelativeTimeFormatter.php:174;349
+msgid "in about a year"
+msgstr "dans environ un an"
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr "Aujourd'hui"
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr "depuis %s"
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr "sur %s"
+
+#: I18n/RelativeTimeFormatter.php:47;126;316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "année"
+msgstr[1] "années"
+
+#: I18n/RelativeTimeFormatter.php:51;129;319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "mois"
+msgstr[1] "mois"
+
+#: I18n/RelativeTimeFormatter.php:57;132;322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "semaine"
+msgstr[1] "semaines"
+
+#: I18n/RelativeTimeFormatter.php:59;135;325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "journée"
+msgstr[1] "journées"
+
+#: I18n/RelativeTimeFormatter.php:64;138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "heure"
+msgstr[1] "heures"
+
+#: I18n/RelativeTimeFormatter.php:68;141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "minute"
+msgstr[1] "minutes"
+
+#: I18n/RelativeTimeFormatter.php:72;144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "seconde"
+msgstr[1] "secondes"
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr "Cette valeur est déjà utilisé"
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr "Cette valeur n'existe pas"
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr "Le compteur ne match pas"
+
+#: Utility/Text.php:917
+msgid "and"
+msgstr "et"
+
+#: Validation/Validator.php:111
+msgid "This field is required"
+msgstr "Ce champ est requis"
+
+#: Validation/Validator.php:112
+msgid "This field cannot be left empty"
+msgstr "Ce champ ne peut pas être laisser vide"
+
+#: Validation/Validator.php:2054
+msgid "The provided value is invalid"
+msgstr "La valeur mise est invalide"
+
+#: View/Helper/FormHelper.php:1097
+msgid "Edit {0}"
+msgstr "Modifier"
+
+#: View/Helper/FormHelper.php:1099
+msgid "New {0}"
+msgstr "Nouveau"
+
+#: View/Helper/HtmlHelper.php:815
+msgid "Home"
+msgstr "Menu"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "January"
+msgstr "Janvier"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "February"
+msgstr "Février"
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "March"
+msgstr "Mars"
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "April"
+msgstr "Avril"
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "May"
+msgstr "Mai"
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "June"
+msgstr "Juin"
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "July"
+msgstr "Juillet"
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "August"
+msgstr "Aout"
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "September"
+msgstr "Septembre"
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "October"
+msgstr "Octobre"
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "November"
+msgstr "Novembre"
+
+#: View/Widget/DateTimeWidget.php:551
+msgid "December"
+msgstr "Décembre"
