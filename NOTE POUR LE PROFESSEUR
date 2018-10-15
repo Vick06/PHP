@@ -1,0 +1,5 @@
+Bonjour,
+
+Pour que mon site fonctionne il faut renommer le dossier (Une fois extrait) AdmissionHopital pour que le site s'affiche comme il se doit.
+Sans cela, il va indique un erreur de Controller.
+J'ai eu beaucoup de problème avec Git et je ne pouvais pas renommer mon Repository vu que je vous avais déja remis le lien GIT. 
