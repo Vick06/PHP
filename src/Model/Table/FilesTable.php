@@ -26,6 +26,16 @@ class FilesTable extends Table
 {
 	 public function initialize(array $config){
         $this->addBehavior('Timestamp');
+        
+        $this->setTable('files');
+        $this->setDisplayField('name');
+        $this->setPrimaryKey('id');
+
+        $this->belongsToMany('Items', [
+            'foreignKey' => 'file_id',
+            'targetForeignKey' => 'item_id',
+            'joinTable' => 'items_files'
+        ]);
     }
 
 }

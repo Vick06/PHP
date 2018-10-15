@@ -23,8 +23,10 @@
     <fieldset>
         <legend><?= __('Edit File') ?></legend>
         <?php
-            echo $this->Form->control('name');
-            echo $this->Form->control('path');
+            echo $this->Html->image($file->path.$file->name, [
+                "alt" => $file->name,
+            ]);
+            echo $this->Form->control('name', ['type' => 'file']);
             echo $this->Form->control('status');
             echo $this->Form->control('items._ids', ['options' => $items]);
         ?>

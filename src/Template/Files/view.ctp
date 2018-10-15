@@ -22,25 +22,18 @@
             <th scope="row"><?= __('Name') ?></th>
             <td><?= h($file->name) ?></td>
         </tr>
-        <tr>
-            <th scope="row"><?= __('Path') ?></th>
-            <td><?= h($file->path) ?></td>
-        </tr>
+        
         <tr>
             <th scope="row"><?= __('Id') ?></th>
             <td><?= $this->Number->format($file->id) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Status') ?></th>
-            <td><?= $this->Number->format($file->status) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Created') ?></th>
-            <td><?= h($file->created) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Modified') ?></th>
-            <td><?= h($file->modified) ?></td>
+            <td>
+                <?php echo $this->Html->image($file->path.$file->name, [
+                    "alt" => $file->name,
+                    ]);
+                ?>
+            </td>
         </tr>
     </table>
     <div class="related">

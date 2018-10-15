@@ -12,10 +12,7 @@ use App\Controller\AppController;
  */
 class FilesController extends AppController
 {
-public function initialize(){
-        parent::initialize();
-		
-		public function isAuthorized($user)
+	public function isAuthorized($user)
 	{
 		$action = $this->request->getParam('action');
 		
@@ -23,7 +20,7 @@ public function initialize(){
         if ($user) {
            switch ($user['role']) {
             case 'Docteur':
-				if (in_array($action, ['logout', 'viewCurrentUser', 'add', 'edit', 'apropos','menu'])) {
+				if (in_array($action, ['logout', 'viewCurrentUser', 'add', 'edit', 'apropos','menu', 'delete'])) {
 					$valid = true;
 				} 
                 break;
@@ -41,31 +38,40 @@ public function initialize(){
 	}
 		
 		return $valid;
-	}
-        
-        // Include the FlashComponent
-        $this->loadComponent('Flash');
-        
-        // Load Files model
-        $this->loadModel('Files');
-        
-        // Set the layout
-        $this->layout = 'frontend';
     }
     
-    public function index(){
-        $uploadData = '';
+    /**
+     * Index method
+     *
+     * @return \Cake\Http\Response|void
+     */
+    public function index() {
+        $files = $this->paginate($this->Files);
+
+        $this->set(compact('files'));
+        $this->set('_serialize', ['files']);
+    }
+
+
+    /**
+     * Add method
+     * 
+     * @return \Cake\Http\Response|null Redirects on successful add, renders view otherwise.
+     */
+    
+    public function add(){
+        $file = $this->Files->newEntity();
+
         if ($this->request->is('post')) {
-            if(!empty($this->request->data['file']['name'])){
-                $fileName = $this->request->data['file']['name'];
-                $uploadPath = 'uploads/files/';
-                $uploadFile = $uploadPath.$fileName;
-                if(move_uploaded_file($this->request->data['file']['tmp_name'],$uploadFile)){
-                    $uploadData = $this->Files->newEntity();
+
+            if(!empty($this->request->data['name']['name'])){
+                $fileName = $this->request->data['name']['name'];
+                $uploadPath = 'Files/';
+                $uploadFile = $uploadPath . $fileName;
+                if(move_uploaded_file($this->request->data['name']['tmp_name'], 'img/' . $uploadFile)){
+                    $uploadData = $this->Files->patchEntity($file, $this->request->getData());
                     $uploadData->name = $fileName;
                     $uploadData->path = $uploadPath;
-                    $uploadData->created = date("Y-m-d H:i:s");
-                    $uploadData->modified = date("Y-m-d H:i:s");
                     if ($this->Files->save($uploadData)) {
                         $this->Flash->success(__('File has been uploaded and inserted successfully.'));
                     }else{
@@ -79,11 +85,49 @@ public function initialize(){
             }
             
         }
-        $this->set('uploadData', $uploadData);
         
-        $files = $this->Files->find('all', ['order' => ['Files.created' => 'DESC']]);
-        $filesRowNum = $files->count();
-        $this->set('files',$files);
-        $this->set('filesRowNum',$filesRowNum);
+        $items = $this->Files->Items->find('list',['limit' => 200]);
+        $this->set(compact('file','items'));
+        $this->set('_serialize', ['file']);
+    }
+
+
+    public function view($id = null){
+        $file = $this->Files->get($id, [
+            'contain' => ['Items']
+        ]);
+
+        $this->set('file', $file);
+        $this->set('_serialize', ['file']);
+    }
+
+    public function edit($id = null) {
+        $file = $this->Files->get($id, [
+            'contain' => ['Items']
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $file = $this->Files->patchEntity($file, $this->request->getData());
+            if ($this->Files->save($file)) {
+                $this->Flash->success(__('The file has been saved.'));
+
+                return $this->redirect(['action' => 'index']);
+            }
+            $this->Flash->error(__('The file could not be saved. Please, try again.'));
+        }
+        $items = $this->Files->Items->find('list', ['limit' => 200]);
+        $this->set(compact('file', 'items'));
+        $this->set('_serialize', ['file']);
+    }
+
+    public function delete($id = null){
+        $this->request->allowMethod(['post', 'delete']);
+        $file = $this->Files->get($id);
+        if ($this->Files->delete($file)) {
+            $this->Flash->success(__('The file has been deleted.'));
+        } else {
+            $this->Flash->error(__('The file could not be deleted. Please, try again.'));
+        }
+
+        return $this->redirect(['action' => 'index']);
     }
 }

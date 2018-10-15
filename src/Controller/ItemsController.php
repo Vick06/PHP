@@ -18,7 +18,7 @@ class ItemsController extends AppController {
     }
 
     public function isAuthorized($user) {
-		parent::isAuthorized(); 
+		/*parent::isAuthorized(); */
 	{
 		$action = $this->request->getParam('action');
 		
@@ -148,7 +148,7 @@ class ItemsController extends AppController {
         return $this->redirect(['action' => 'index']);
     }
 
-    public function tags() {
+  /*  public function tags() {
         // The 'pass' key is provided by CakePHP and contains all
         // the passed URL path segments in the request.
         $tags = $this->request->getParam('pass');
@@ -163,7 +163,7 @@ class ItemsController extends AppController {
             'items' => $items,
             'tags' => $tags
         ]);
-    }
+    }*/
 	
 	public function apropos()
     {

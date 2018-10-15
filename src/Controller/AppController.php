@@ -84,10 +84,10 @@ class AppController extends Controller
 	
 	public function changeLang($lang = 'en_US') 
 	{
-    I18n::setLocale($lang);
-	
-    $this->request->session()->write('Config.language', $lang);
-	
-    return $this->redirect($this->request->referer());
+        I18n::setLocale($lang);
+        
+        $this->request->session()->write('Config.language', $lang);
+        
+        return $this->redirect($this->request->referer());
 	}
 }
